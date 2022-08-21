@@ -1,0 +1,46 @@
+.WelcomeContainer {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: #f2f0e4;
+    
+}
+.WelcomeContainer h1 {
+    font-size: 1.7em;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 0;
+    color: var(--textColor);
+    text-transform: uppercase;
+}
+.WelcomeInfo {
+    height: 253px;
+    overflow: auto;
+}
+.WelcomeInfo p {
+    margin-bottom: 2em;
+    color: var(--textColor);
+    font-size: 1em;
+    font-style: normal;
+
+}
+.ActionButton {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ActionButton > a {
+    text-decoration: none;
+}
+.ActionButton > a:last-child {
+    margin-top: .5rem;
+    color: var(--btnBgColor);
+    font-size: 0.875em;
+    font-weight: 400;
+    font-style: normal;
+}
